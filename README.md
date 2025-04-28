@@ -2,6 +2,7 @@ This is README
 
 
 To run this project pull the repo and follow the following steps:-
+
 1.Open cmd in the project directory and then run the following commands:
 cd .\Kandeez-Ransomware\
 npm install
