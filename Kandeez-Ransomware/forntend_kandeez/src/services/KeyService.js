@@ -3,7 +3,8 @@
 import axios from 'axios';
 
 const backendPort = import.meta.env.VITE_BACKEND_PORT;
-const API_URL = `http://localhost:${backendPort}/api`;
+const backendIP = import.meta.env.VITE_BACKEND_IP
+const API_URL = `http://${backendIP}:${backendPort}/api`;
 
 export const fetchAllKeys = async () => {
   try {
